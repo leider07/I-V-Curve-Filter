@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "conexion"
+version = "0.1.0"
+description = ""
+authors = ["leider07 <fabianleider0707@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymysql = "^1.1.1"
+mysql-connector-python = "^9.0.0"
+matplotlib = "^3.9.2"
+scipy = "^1.14.1"
+numpy = "^2.1.1"
+pandas = "^2.2.2"
+pytest = "^8.3.3"
+pyarrow = "^19.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-mock = "^3.14.0"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
